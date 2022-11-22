@@ -7,7 +7,8 @@ p {
 }
 
 li {
-    list-style: none;
+    list-style-type: none;
+    margin-left: 24px;
 }
 
 .header {
@@ -25,7 +26,7 @@ li {
 .header-list li {
     float: left;
     padding: 33px 20px;
-    list-style: none;
+    list-style-type: none;
 }
 
 .copy-container h1 {
@@ -41,7 +42,7 @@ li {
 }
 
 .notice-title {
-    border-bottom: 2px solid #dee7ec;
+    border-bottom: 2px solid #000000;
     font-size: 28px;
     padding-bottom: 15px;
     margin-bottom: 50px;
@@ -51,9 +52,22 @@ li {
 
 
 .section-title {
-    border-bottom: 2px solid #dee7ec;
+    border-bottom: 2px solid #000000;
     font-size: 28px;
     padding-bottom: 15px;
     margin-bottom: 50px;
 }
+
+.charenging {
+    border-bottom: 2px solid #000000;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.charenging li {
+    list-style-type: disc;
+    margin-left: 24px;
+}
+
 /*ここから変更*/
