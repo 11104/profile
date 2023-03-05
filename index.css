@@ -1,3 +1,33 @@
+/*header*/
+* {
+    margin:0; padding:0;
+}
+header {
+    height: 100px;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #337079;
+    color: white;
+}
+header .headline{
+    line-height: 100px;
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+}
+header .nav-list {
+    line-height: 100px;
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+}
+header .nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+/*body*/
+
 body {
     font-family: "Avenir Next";
 }
@@ -9,12 +39,14 @@ p {
 li {
     list-style-type: none;
     margin-left: 24px;
+    float:right;
 }
 
 .header {
     background-color: #26d0c9;
     color: #fff;
     height: 90px;
+    border-bottom: 2px solid #dee7ec;
 }
   
 .header-logo {
