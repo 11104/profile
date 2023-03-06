@@ -11,6 +11,7 @@ nav{
 }
 ul{
     display: flex;
+    float: left;
 }
 li{
      list-style: none;
