@@ -4,6 +4,7 @@ header {
     padding: 15px 0;
     background-color: #337079;
     color: white;
+    
 }
 nav{
     width: 500px;
@@ -11,8 +12,29 @@ nav{
 }
 ul{
     display: flex;
+    float: left;
 }
 li{
-     list-style: none;
-     margin-left: 20px;
+    list-style: none;
+    margin-left: 10px;
+}
+.main {
+    padding: 100px 80px;
+  }
+.headline {
+    height: 10px;
+    left: 10px;
+}
+.head-list-item {
+    list-style: none;
+    margin-left: 30px;
+    margin-top:10px;
+}
+
+.top-welcome {
+    font-size: 36px;
+}
+.intro{
+    font-size: 36px;
+    padding: 5px 8px;
 }
