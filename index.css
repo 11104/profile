@@ -1,5 +1,9 @@
 body {
     font-family: "Avenir Next";
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
 }
   
 .header {
@@ -39,6 +43,10 @@ body {
 .contents-item {
     float:left;
 }
+.intro{
+    padding: 10px;
+    float:right;
+}
 
 .main {
     padding: 100px 80px;
@@ -54,10 +62,10 @@ body {
     background-color: #2f5167;
     color: #fff;
     height: 120px;
+    bottom: 0;
 }
   
 .footer-logo {
-    float: left;
     font-size: 32px;
 }
   
