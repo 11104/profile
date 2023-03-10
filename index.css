@@ -27,6 +27,7 @@ body {
 }
 .contents {
     height:500px;
+    font-size: 20px;
   }
 .section-title {
     border-bottom: 2px solid #dee7ec;
