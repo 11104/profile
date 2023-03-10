@@ -14,7 +14,7 @@ body {
 .header-logo {
     float: left;
     font-size: 36px;
-    padding: 20px 20px;
+    padding: 10px 10px;
 }
   
 .header-list li {
@@ -22,12 +22,25 @@ body {
     padding: 33px 20px;
     list-style: none;
 }
+.top-welcome{
+    font-size: 60px;
+    width: 100%;
+}
+.contents {
+    height:500px;
+  }
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+}.contents-item {
+    float:left;
+}
+
 .main {
     padding: 100px 80px;
 }
 .intro{
     font-size: 24px;
-    padding: 5px 8px;
+    padding: 5px 5px;
 }
 
 
