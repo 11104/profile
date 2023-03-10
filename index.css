@@ -28,6 +28,14 @@ body {
     font-size: 20px;
     list-style: none;
 }
+.notice{
+    background-color: #ff0000;
+}
+
+.main {
+    background-color: #fff;
+    padding: 100px 80px;
+}
 .top-welcome{
     font-size: 60px;
     width: 100%;
@@ -39,21 +47,18 @@ body {
 .section-title {
     border-bottom: 2px solid #dee7ec;
     padding-top: 10px;
+    padding-left: 10px;
 }
 .contents-item {
     float:left;
-}
-.intro{
     padding: 10px;
-    float:right;
 }
 
-.main {
-    padding: 100px 80px;
-}
+
 .intro{
     font-size: 24px;
-    padding: 5px 5px;
+    padding: 10px;
+    float:right;
 }
 
 
@@ -75,5 +80,6 @@ body {
   
 .footer-list li {
     padding-bottom: 20px;
+    list-style: none;
 }
   
