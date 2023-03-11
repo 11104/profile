@@ -7,7 +7,7 @@ body {
 }
   
 .header {
-    background-color: #26d0c9;
+    background-color: #26d075;
     color: #fff;
     height: 100px;
     width: 100%;
@@ -33,21 +33,24 @@ body {
 }
 
 .main {
-    background-color: #fff;
-    padding: 100px 80px;
+    background-color: #91edeef1;
 }
 .top-welcome{
     font-size: 60px;
     width: 100%;
+    padding: 100px 80px;
+    background-color: #fff;
+
 }
 .contents {
+    background-color: #91edeef1;
     height:500px;
     font-size: 20px;
   }
 .section-title {
     border-bottom: 2px solid #dee7ec;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .contents-item {
     float:left;
@@ -59,6 +62,8 @@ body {
     font-size: 24px;
     padding: 10px;
     float:right;
+    background-color: #91edeef1;
+
 }
 
 
