@@ -1,33 +1,70 @@
 body {
     font-family: "Avenir Next";
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
 }
   
 .header {
     background-color: #26d0c9;
     color: #fff;
-    height: 80px;
+    height: 100px;
     width: 100%;
-    padding: 40px;
+    padding: 30px;
     float: left;
 }
   
 .header-logo {
     float: left;
-    font-size: 36px;
-    padding: 20px 20px;
+    font-size: 48px;
+    padding-left: 10px;
+    padding-right: 30px;
 }
   
 .header-list li {
     float: left;
-    padding: 33px 20px;
+    padding: 20px 20px;
+    font-size: 20px;
     list-style: none;
 }
+.notice{
+    background-color: #ff0000;
+}
+
 .main {
+    background-color: #fff;
     padding: 100px 80px;
 }
+.top-welcome{
+    font-size: 60px;
+    width: 100%;
+}
+.contents {
+    height:500px;
+    font-size: 20px;
+}
+.contents li{
+    list-style: none;
+}
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.contents-item {
+    float:left;
+    padding: 10px;
+}
+.contents-item li{
+    float:left;
+    list-style: none;
+}
+
 .intro{
     font-size: 24px;
-    padding: 5px 8px;
+    padding: 10px;
+    float:right;
 }
 
 
@@ -35,12 +72,11 @@ body {
 .footer {
     background-color: #2f5167;
     color: #fff;
-    height: 120px;
-    padding: 40px;
+    height: 200px;
+    bottom: 0;
 }
   
 .footer-logo {
-    float: left;
     font-size: 32px;
 }
   
@@ -50,5 +86,6 @@ body {
   
 .footer-list li {
     padding-bottom: 20px;
+    list-style: none;
 }
   
