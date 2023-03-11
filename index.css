@@ -35,6 +35,8 @@ body {
 .main {
     background-color: #91edeef1;
     font-size: 20px;
+    padding-left:20px;
+    padding-right:60px;
 }
 .top-welcome{
     font-size: 60px;
@@ -83,10 +85,12 @@ body {
   
 .footer-logo {
     font-size: 32px;
+    padding-left:20px;
 }
   
 .footer-list {
     float: right;
+    padding-right:20px;
 }
   
 .footer-list li {
