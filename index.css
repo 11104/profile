@@ -34,6 +34,7 @@ body {
 
 .main {
     background-color: #91edeef1;
+    font-size: 20px;
 }
 .top-welcome{
     font-size: 60px;
@@ -55,6 +56,10 @@ body {
 .contents-item {
     float:left;
     padding: 10px;
+}
+.contents-item li{
+    list-style: none;
+
 }
 
 
