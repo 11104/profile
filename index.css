@@ -35,6 +35,8 @@ body {
 .main {
     background-color: #91edeef1;
     font-size: 20px;
+    padding-left:20px;
+    padding-right:60px;
 }
 .top-welcome{
     font-size: 60px;
@@ -47,6 +49,7 @@ body {
     background-color: #91edeef1;
     height:500px;
     font-size: 20px;
+    padding-top: 10px;
   }
 .section-title {
     border-bottom: 2px solid #dee7ec;
@@ -78,14 +81,18 @@ body {
     color: #fff;
     height: 200px;
     bottom: 0;
+    width: 100%;
+
 }
   
 .footer-logo {
     font-size: 32px;
+    padding-left:20px;
 }
   
 .footer-list {
     float: right;
+    padding-right:20px;
 }
   
 .footer-list li {
