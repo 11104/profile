@@ -42,13 +42,11 @@ body {
     flex-flow: column;
 }
 .top-welcome{
-    font-size: 60px;
+    font-size: 70px;
     padding-top: 60px;
     padding-bottom:60px;
-    padding-left:30px;
-    padding-right:0px;
     background-color: #fff;
-
+    text-align:  center;
 }
 .contents {
     background-color: #91edeef1;
@@ -57,22 +55,31 @@ body {
     padding-bottom:20px;
     display:flex;
     flex-flow: column;
+    text-align:  center;
+
   }
-  .contents-display{
+.contents-display{
     padding-top: 10px;
     padding-bottom:20px;
-
     display:flex;
     flex-flow: row;
+    text-align:  center;
+}
+.contents-display li{
+    list-style: none;
+    display: flex;
+
 }
 .section-title {
     border-bottom: 2px solid #dee7ec;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 5px;
 }
 .contents-item {
     float:left;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
     
 }
 .contents-item li{
@@ -84,7 +91,7 @@ body {
 .more{
     font-size: 30px;
     padding-top: 10px;
-    padding-bottom:10px;
+    padding-bottom:5px;
     text-align:  center; 
 }
 
