@@ -32,7 +32,9 @@ body {
 .notice{
     background-color: #ff0000;
 }
-
+span {
+    color: #f34242;
+}
 .main {
     background-color: #91edeef1;
     font-size: 20px;
